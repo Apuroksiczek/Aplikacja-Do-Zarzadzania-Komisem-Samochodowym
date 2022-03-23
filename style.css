@@ -1,0 +1,701 @@
+body{
+    overflow-x:hidden;
+}
+
+select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 235px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+input[type=date]{
+    min-width: 211px;
+} 
+
+.footer {
+    margin-top: 100px;
+    background: #333;
+    color:#fff;
+    width: 100%;
+    text-align: center;
+    font-family: Roboto;
+  }
+  
+  .footer a {
+    color:#fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  .footer a:hover {
+    color:#eee;
+    background: rgba(0,0,0,0.2);
+  }
+  
+  .footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,255,255, 0.2);
+  }
+
+
+.navbar{
+    position: static;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #333;
+    /* text-shadow: 2px 2px 4px #000000; */
+    box-shadow: 2px 2px 4px #000000;;
+}
+
+.navbar ul{
+    position: absolute;
+    top: 20px;
+    /* left: 40%;
+    transform: translate(-50%, 0%);  */
+    /* line-height: 40px; */
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+
+    background-color: #333;
+}
+
+.navbar li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 20px;
+}
+
+.navbar li a:hover{
+ 
+    background-color: #111;
+}
+
+.obrazek-samochodu{
+    /* margin-top: 10px; */
+    background-image: url("obrazek1.jpg");
+    background-attachment: fixed;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+} 
+
+.obrazek-samochodu .tresc h3{
+    color: #d4002a;
+    font-size: 60px;
+    font-weight:1200;
+    text-shadow: 2px 2px 2px black;
+}
+
+.obrazek-samochodu .tresc{
+    position: relative;
+    top: 50px;
+    left: 120px;
+    margin: 40px;
+    font-size: 20px;
+    font-weight:1200;
+    text-shadow: 4px 4px 2px black;
+
+   
+}
+.obrazek-samochodu a{
+    position: relative;
+    top:50px;
+    height: 40px;
+    width: 70px;
+    padding: 30px;
+    color: white;
+    background-color: #d4002a;
+    text-decoration: none;
+    font-size: 50px;
+    transition: ease-in 0.3s;
+    text-shadow: none;
+}
+
+.obrazek-samochodu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.kup-samochod p{
+    font-size: 40px;
+}
+
+.kup-samochod-kategorie>div{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(155, 155, 207);
+}
+
+.kup-samochod-kategorie .lewo{
+    background-image: url("obrazeklewo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: ease-in 0.3s;
+
+}
+
+.kup-samochod-kategorie .srodek{
+    background-image: url("obrazeksrodek.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: ease-in 0.3s;
+
+}
+
+.kup-samochod-kategorie .prawo{
+    background-image: url("obrazekprawo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: ease-in 0.3s;
+
+}
+
+.kup-samochod-kategorie{
+    display: flex;
+    justify-content: center;
+    font-size: 20;
+    font-weight: 1200;
+    transition: ease-out 0.3s;
+    /* column-gap: 50px; */
+}
+
+.kup-samochod-kategorie  .prawo:hover{
+    transform: scale(1.1);
+}
+.kup-samochod-kategorie .lewo:hover{
+    transform: scale(1.1);
+
+}
+.kup-samochod-kategorie .srodek:hover{
+    transform: scale(1.1);
+    
+}
+
+.kup-samochod-kategorie .obramowanie{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid brown;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.kup-samochod-kategorie p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.znizka{
+    background-image: url("obrazekznizka.jpg");
+    /* background-position: center; */
+    background-attachment: fixed;
+    font-weight: 2000;
+    font-size: 50px;
+    height: 500px;
+    line-height: 10px;
+}
+
+.napisy{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.napisy a{
+    position: relative;
+    top: 60px;
+    height: 40px;
+    width: 70px;
+    padding: 30px;
+    color: white;
+    background-color: #d4002a;
+    text-decoration: none;
+    font-size: 50px;
+    transition: ease-in 0.3s;
+}
+
+.napisy a:hover{
+    background-color: white;
+    color: black;
+}
+.znizka-napis{
+    font-size: 20px;
+}
+
+
+.znizka p{
+    color: white;
+    /* line-height: 200px; */
+}
+
+
+/* car_list_view */
+
+.tekst-srodek{
+    font-size: 50px;
+    border-bottom: 1px solid #333;
+    margin-left: -30px;
+}
+
+.car-list-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 10px;  
+    grid-auto-flow:row;
+    width: 70%;
+   
+
+}
+.car-list-container .obrazek{
+    height: 200px;
+    width: 280px;
+}
+
+.car-list-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.car-list-container>div{
+    width: 280px;
+    height: 420px;
+    /* background-color: turquoise; */
+}
+
+.card{
+    margin-top: 20px;
+    border: 1px dotted black;
+    box-shadow: 2px 2px 4px #000000;;
+    flex: 30%;
+    transition: ease-in 0.2s;
+
+}
+
+.card a{
+    position: relative;
+    top: 30px;
+    height: 20px;
+    width: 70px;
+    padding: 10px;
+    color: white;
+    background-color: #d4002a;
+    text-decoration: none;
+    font-size: 20px;
+    transition: ease-in 0.15s;
+
+}
+
+.card a:hover{
+   background-color: white;
+   color: black;
+   border: 1px solid #d4002a;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+
+/* Contact */
+
+.contact-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+}
+
+.informacje{
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    height: 100px;
+}
+
+.card .cena{
+    color: #a31935;
+    font-weight: 900;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.contact-container .information{
+    margin-top: 30px;
+    height: 800px;
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight:510;
+
+}
+
+.contact-container .information p{
+    color: #d4002a;
+
+}
+
+.contact-container .map{
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+}
+
+.left{
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 200px;
+    width: 300px;
+    /* background-color:blueviolet; */
+}
+
+.right{
+    height: 200px;
+    width: 600px;
+    /* background-color: aqua; */
+}
+
+.filtr-button input[type=button]{
+  font-size: 32px;
+  background-color:rgb(245, 244, 239);
+  border-radius: 5px;
+}
+
+.car-container{
+    margin-top: 50px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+
+}
+
+.car-left{
+    height: 800px;
+    /* width: 1000px; */
+    /* background-color: darkmagenta; */
+}
+
+.car-left img{
+   width: 100%;
+   height:400px;
+}
+
+.car-right{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(242, 245, 248);
+    box-shadow: 0px 0px 12px 6px #302E33;
+    font-size: 24px;
+}
+
+.car-right .content{
+    margin: 20px;
+    /* height: 400px; */
+}
+
+.car-right .content .cena{
+    color: #a31935;
+    font-weight: 900;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.table-con{
+    display: flex;
+    font-size: 24px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 2px 2px 8px #302E33;
+  height: 400px;
+}
+
+.table-con td{
+    height: 40px;
+    border-bottom: 2 px dotted black;
+}
+
+.table-con table{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.table-con .pogrubione{
+    font-weight:bolder;
+    
+}
+
+.table-left{
+    width: 400px;
+}
+
+.table-right{
+    width: 450px; 
+}
+
+.cenaKupna{
+    height: 100px;
+    width: 300px;
+    background-color: inherit;
+    color: rgb(242, 245, 248);;
+    /* color: red; */
+}
+
+.hidden{
+    display: flex;
+}
+
+.cenaKupna:hover{
+color: red;
+}
+
+.panel-sterowania{
+    margin-top: 160px;
+    margin-left: -20px;
+    width: 400px;
+    height: 200px;
+   
+    
+}
+
+.panel-sterowania .content{
+    position: relative;
+    top: 70px;
+}
+
+.panel-sterowania .content a{
+   display:table;
+   margin-top: 10px;
+   text-decoration: none;
+   background: crimson;
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   color: white;
+}
+
+
+/* ABOUT US */
+
+.counter-up{
+    height: 200px;
+    background: red;
+    padding: 0 50px;
+}
+
+.counter-up .content{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    font-size: 30px;
+}
+
+.content .box{
+    height: 150px;
+    width: calc(25% - 30px);
+    border: 1px dotted white;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* ADD_CAR */
+
+.prostokat{
+    height: 500px;
+    width: 100%;
+    border-radius: 50px;
+    background: cyan;
+    transform: rotate(-30deg);
+    position:fixed;
+    z-index: -1;
+}
+
+.add-car-container{
+    margin-top: 20px;
+    width: 310px;
+    padding: 40px;
+    padding-right: 70px;
+    position: relative;
+    left: 40%;
+    background: #333;
+    font-size: 30px;
+    color: white;
+}
+
+.content td{
+    text-align: left;
+}
+
+.content{
+    font-size: 18px;
+}
+
+.add-car-container .content .guzik{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.add-car-container .content input{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+
+
+
+/* TRANSAKCJE */
+
+.transakcje-container{
+    position: relative;
+    left: 25%;
+    margin-top: 150px;
+    min-width: 800px;
+    max-width: 1600px;
+
+}
+.transakcje-container .card{
+    height: 100px;
+    width: 55%;
+    background-color: azure;
+    display: flex;
+    border: 2px solid black;
+}
+
+.transakcje-container .card .left{
+    position: relative;
+    left: -30px;
+    top: -15px;
+    height: 100.5px;
+    width: 180px;
+    background: rgb(170, 150, 189);
+}
+
+.transakcje-container .card .left img{
+    width: 100%;
+    height: 100%;
+    border-right: 3px solid black;
+}
+
+.transakcje-container .card .left .gora{
+    position: inherit;
+    left: -30px;
+    top: -15px;
+    height: 100.5px;
+    width: 160px;
+    background: rgb(127, 81, 170);
+}
+
+.podzialka{
+    border-bottom: 3px groove #333;
+   
+}
+
+.guziki{
+    font-size: 12px;
+    border-left: 3px solid #333;
+}
+
+.guziki a{
+    top: 0px;
+    left: 0px;
+    position: relative;
+    font-size   : 10px;
+    background: transparent;
+    color: black;
+/* margin-top: 20px; */
+}
+
+.guziki a:hover{
+    /* background: transparent; */
+    background: #a31935;
+    color: aliceblue;
+    border: none;
+}
+
+.styled-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+
+}
+
+.styled-table td{
+    padding: 4px;
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight:bolder;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:nth-last-of-type(odd) {
+    font-weight: bold;
+    color: #009879;
+}
+
+.login-container{
+    position: relative;
+    margin-top: 50px;    
+    display: block;
+    left: 45%;
+    border: 2px solid black;
+    max-width: 180px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.login-container input{
+    margin-top: 10px;
+}
